@@ -1,0 +1,3 @@
+#!/usr/bin/env bashs
+#8-beheaded_process
+pkill -9 -f "bash ./7-highlander"
