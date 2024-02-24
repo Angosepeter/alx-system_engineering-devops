@@ -19,4 +19,5 @@ backend load_b\n
 echo -e "ENABLED=1\n" | sudo tee -a /etc/default/haproxy
 echo -e "$load_balancer" | sudo tee -a /etc/haproxy/haproxy.cfg
 
-service haproxy restart
+service haproxy restart:wq
+
